@@ -1,0 +1,17 @@
+	.btn-blue {
+	color: black;
+	background-color: rgb(132, 132, 132);
+	padding: 8px 16px;
+	border-radius: 6px;
+	font-weight: bolder;
+	border: 1px solid blue;
+	transition: 1s;
+	font-size: 20px
+}
+
+	.btn-blue:hover {
+		background-color: rgb(150, 131, 236);
+		color: blue;
+		transition: 1s;
+
+}
