@@ -28,9 +28,7 @@ h2{
 	margin: 0 auto;
 }
 
-h1{
-color: black;
-}
+
  #logo {
  display:block;
 width:auto;
@@ -38,14 +36,79 @@ margin-left:auto;
 margin-right:auto;
 }
 
-h4{
-	color: rgb(150, 131, 236);
-	font-family: "Fredoka";
+h1{
+	color: rgb(187, 189, 191);
+	font-family: "Poppins";
 	background-color: blue
 	font-size:3px;
 	text-orientation: left;
 }
-h3{
+h6{
 	font-family: "Poppins";
 	color: rgb(150, 131, 236);
+	text-align: center;
+}
+
+h4{
+	font-family: "Poppins";
+	color: rgb(150, 131, 236);
+	text-align: center;
+}
+
+
+h3{
+	color: rgb(46, 0, 108);
+	font-family: "Poppins";
+	font-size:30px;
+	text-align: center;
+}
+
+.menu{
+	background-color: white;
+	text-align: center;
+	padding: 30px;
+	font-size: 20px;
+}
+.menu a{
+	font-family: 'Poppins';
+	font-weight: bolder;
+	color: rgb(150, 131, 236);
+	background-color: white;
+	display: inline;
+	margin: 0px 25px;
+	text-decoration: none;
+}
+.menu a:hover{
+	color: white;
+	background-color: #BBBDBF;
+	padding: 15px 10px;
+}
+
+.container2{
+width: 80%;
+margin: 0 auto;
+}
+
+p{
+	color: #B9D8D5
+}
+
+.list-inline {
+		padding: 0;
+		list-style: none;
+		color: white
+}
+
+	.list-inline li {
+		display: inline;
+		margin: 0 16px;
+		font-size: 40px;
+}
+
+.fa-brands {
+	color: rgba(0,0,0,4);
+}
+
+.fa-brands:hover{
+	color: black;
 }
